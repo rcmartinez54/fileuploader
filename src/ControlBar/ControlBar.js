@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './ControlBar.css';
+import './ControlBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRedoAlt, faTrashAlt, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
