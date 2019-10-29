@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 import SearchBar from './SearchBar/SearchBar';
 import FilterableList from './FilterableList/FilterableList';
 
-function App() {
+class App extends Component {
   render() {
     return (
       <div className="App">
@@ -11,8 +11,7 @@ function App() {
         <FilterableList files={this.props.files} />
       </div>
     );
-  } 
-  
+  }  
 }
 
 export default App;

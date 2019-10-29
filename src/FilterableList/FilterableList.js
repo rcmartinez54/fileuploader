@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './FilterableList.css';
+// import './FilterableList.css';
 import ListItem from '../ListItem/ListItem';
 
 class FilterableList extends Component {
