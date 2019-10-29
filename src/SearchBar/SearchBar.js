@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SearchBar.css';
+// import './SearchBar.css';
 import SearchBox from '../SearchBox/SearchBox';
 import FilterOptions from '../FilterOptions/FilterOptions';
 
