@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './ListItem.css';
+import './ListItem.css';
 import ControlBar from '../ControlBar/ControlBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
