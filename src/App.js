@@ -16,7 +16,8 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBar
-          searchTerm={this.state.filterOptions}/>
+          searchTerm={this.state.searchTerm}
+          filterOption={this.state.filterOptions}/>
         <FilterableList 
           files={this.props.files}
           searchTerm={this.state.searchTerm}
